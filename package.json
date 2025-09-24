@@ -1,0 +1,51 @@
+{
+  "name": "eslint-plugin-use-effect-require-named-callback",
+  "version": "1.0.0",
+  "description": "ESLint rule to require useEffect callbacks to be named functions instead of anonymous functions",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "react",
+    "useEffect",
+    "named-function",
+    "callback",
+    "hooks"
+  ],
+  "author": "Johnny Tai <bm414148@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooospooky/eslint-plugin-use-effect-require-named-callback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ooospooky/eslint-plugin-use-effect-require-named-callback/issues"
+  },
+  "homepage": "https://github.com/ooospooky/eslint-plugin-use-effect-require-named-callback#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "@eslint/js": "^9.0.0",
+    "@types/eslint": "^8.56.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/utils": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "prepublishOnly": "npm test"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
