@@ -1,0 +1,1 @@
+# eslint-plugin-use-effect-require-named-callback
